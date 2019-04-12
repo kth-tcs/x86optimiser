@@ -30,7 +30,12 @@ int main(int argc, char** argv) {
     j = (j*19 + 7 + (rand() % 5));
     ret += popcnt(j);
   }
+<<<<<<< HEAD
 
   return ret;
 }
        
+=======
+  return ret;
+}
+>>>>>>> cb8425104f822d89d68c7d525b3f620c4a48e45e
