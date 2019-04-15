@@ -16,7 +16,7 @@ Step 2. You will need to ssh to the latest image of the stoke project. For this 
    ```
 Step 3. This will pull the latest images from the already published contents for the stanfordpl project on the server. Then you need to give a name to your container and start run.
     ```
-    sudo docker run -d -P --name yourownname stanfordpl/stoke:ARCH
+    sudo docker run -d -P --name yourownname stanfordpl/stoke:latest
     ```
 Step 4. Then you can SSH to the container as: This will give you output for port number XXXXX
    
