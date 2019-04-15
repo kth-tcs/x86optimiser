@@ -1,3 +1,5 @@
+*Defining your own opcode* (https://docs.oracle.com/cd/E16754_01/doc.75/e16702/prg_writing_fm.htm#BRMDR297)
+
 **Starting docker container for Stoke Project** 
 *Contents referred from official github page of stoke*
 
