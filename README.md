@@ -28,8 +28,9 @@ Step 5.  Then
                           (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
                           (https://github.com/Dman95/SASM/issues)
                        
-  ###Instructions on assembly coding
-  ##Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
+  **Instructions on assembly coding**
+  
+  Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
   
   To compile your code create a asm file and run as follows: 
   ```
