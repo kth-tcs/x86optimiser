@@ -1,9 +1,3 @@
-**Step 1** (Just as a help for defining opcode.h file for undefined opcodes)
-
-1. Defining your own opcode (https://docs.oracle.com/cd/E16754_01/doc.75/e16702/prg_writing_fm.htm#BRMDR297)
-
-2. Writing perl script for the opcode (https://perldoc.perl.org/Opcode.html)
-
 **Starting docker container for Stoke Project** 
 *Contents referred from official github page of stoke*
 
