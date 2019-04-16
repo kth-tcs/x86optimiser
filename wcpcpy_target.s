@@ -8,6 +8,7 @@ movl edx , ( r15 , rdi )      movl edi , edi     #edi - destination string
 addl 4 , edi                  movl ( r15 , rsi ) , edx
 testl edx , edx               shrl 1 , edx
 jne . begin                   je . exit             
+<<<<<<< HEAD
 retq                          movl esi , esi     #esi - source string
 							  movl ( r15 , rsi ) , edx
 							  addl 4 , esi
@@ -15,6 +16,15 @@ retq                          movl esi , esi     #esi - source string
 							  nop (31)
 							  . exit :
 							  retq
+=======
+retq                          movl esi , esi
+			      movl ( r15 , rsi ) , edx
+                   	      addl 4 , esi
+			      jmpq . begin
+			      nop (31)
+			      . exit :
+			      retq
+>>>>>>> 59cf911f0d70e63cc744453e0df8ee61011d4957
 
 
 #The folloeing is the code for ATT Instruction. The difference is in ATT the first one is source and second is destination
