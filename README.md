@@ -23,6 +23,6 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
-  #For Assembly codes :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23)
+  **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23)
 
 
