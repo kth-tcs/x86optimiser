@@ -28,5 +28,30 @@ Step 5.  Then
                           (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
                           (https://github.com/Dman95/SASM/issues)
                        
+  ###Instructions on assembly coding
+  ##Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
+  
+  To compile your code create a asm file and run as follows: 
+  ```
+  nasm -f elf myfile.asm
+  
+  ```
+  This will help you to assemble your code
+  
+  Then, 
+   
+   ```
+   nasm -f bin myfile.asm -o myfile.com
+   
+   ```
+   Output file can be given in any of the formats supported by nasm. Complete list of commands for testing and results can be found on this link: 
+   (https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23)
+   
+   If you happen to have gcc and want to test your code, run:
+   ```
+   nm hello.o
+   
+   ```
+   This will give you a run time analysis of the executed code snippets.
 
 
