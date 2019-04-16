@@ -23,6 +23,10 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
-  **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm)
+  **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
+                          (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), 
+                          (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
+                          (https://github.com/Dman95/SASM/issues)
+                       
 
 
