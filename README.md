@@ -52,10 +52,10 @@ Step 5.  Then
    ```
    nm hello.o
    
+   ```
+   This will give you a run time analysis of the executed code snippets.
    
-   ###This will give you a run time analysis of the executed code snippets.
-   
-   PLEASE NOTE: Specify the path to the stoke to get 'stoke' commands in your system. As such:
+   ***PLEASE NOTE: Specify the path to the stoke to get 'stoke' commands in your system. As such:***
    
    ```
    $ export PATH=$PATH:/<path_to_stoke>/bin
