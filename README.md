@@ -61,6 +61,11 @@ Step 5.  Then
    $ export PATH=$PATH:/<path_to_stoke>/bin
    
    ```
+<br>
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+</br>
+
+
 
    ------->**_Explanation for output.tc_**<------------
    
