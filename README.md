@@ -62,7 +62,7 @@ Step 5.  Then
    
    ```
 
-   ***Explanation for output.tc ***
+   **Explanation for output.tc**
    
   STOKE uses random search to explore the extremely high-dimensional space of all possible program transformations. For a way to give a backbone to the Stoke Search methods we need to generate a set of test-cases. One of the them is Random Generation and Backtracking. I selected this since it was good head start for someone who is looking to generate their own cases for the algorithm.
 
