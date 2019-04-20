@@ -1,4 +1,4 @@
-**Starting docker container for Stoke Project** 
+:+1:-**Starting docker container for Stoke Project** 
 *Contents referred from official github page of stoke*
 
 
@@ -23,12 +23,13 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
-  **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
+- :+1: **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
                           (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), 
                           (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
                           (https://github.com/Dman95/SASM/issues)
-                       
-  **Instructions on assembly coding**
+   
+  
+-  :+1:**Instructions on assembly coding**
   
   Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
   
@@ -62,12 +63,11 @@ Step 5.  Then
    
    ```
 <br>
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 </br>
 
 
 
-   ------->**_Explanation for output.tc_**<------------
+ -:+1:  ------->**_Explanation for output.tc_**<------------
    
   STOKE uses random search to explore the extremely high-dimensional space of all possible program transformations. For a way to give a backbone to the Stoke Search methods we need to generate a set of test-cases. One of the them is Random Generation and Backtracking. I selected this since it was good head start for someone who is looking to generate their own cases for the algorithm.
 
