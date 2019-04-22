@@ -79,4 +79,4 @@ The Intel makes (Sandybridge - i5; Haswell - i3 ) make use of AVX (Advanced Vect
 
 Finally the last set of result in output.tc gives a set of valid and invalid contents of flag on stack and heap. Bytes will be segregated in valid and invalid. This brings me to the Final Configuration of the Stoke project. 
 
-
+ ***irrelavant: path to git from source laptop: shrinish@shrinish-Inspiron-13-5378 ── ~/stoke-Superoptimisation/learning-superoptimize ── ‹master*› ***
