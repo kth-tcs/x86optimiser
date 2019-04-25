@@ -69,7 +69,7 @@ Step 5.  Then
    Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
    
    
-   ***The Result is stored in popcnt.tc***
+   ***The Result is stored in resulttext.txt***
 
  -:+1:  ------->**_Explanation for output.tc_**<------------
    
