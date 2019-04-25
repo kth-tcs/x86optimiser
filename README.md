@@ -65,8 +65,11 @@ Step 5.  Then
 <br>
 </br>
 
-   ***The output for the Stoke search Result sample***
+ :+1:  ***The output for the Stoke search Result sample***
    Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
+   
+   
+   ***The Result is stored in popcnt.tc***
 
  -:+1:  ------->**_Explanation for output.tc_**<------------
    
