@@ -23,7 +23,7 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
-Step 6. To stop and remove the docker container follow the steps as below:
+Step 6 (incase you get an error message that your docker container is already running). To stop and remove the docker container follow the steps as below:
 
 ```
      sudo docker container ls -a
