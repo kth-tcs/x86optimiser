@@ -23,6 +23,31 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
+Step 6. To stop and remove the docker container follow the steps as below:
+
+```
+     sudo docker container ls -a
+```
+Check for the number of the container and then stop using 
+
+```
+   docker stop (number)
+   
+```
+
+And finally remove it using
+
+``` 
+docker container rm (number)
+```
+Alternatively you can also make sure that you prune all the volumes by:
+
+```
+docker system prune --volumes
+docker system prune
+```
+
+  
 - :+1: **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
                           (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), 
                           (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
