@@ -50,11 +50,11 @@ docker system prune --volumes
 ```
 
   
-- :+1: **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
-                          (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), 
-                          (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
-                          (https://github.com/Dman95/SASM/issues)
-   
+- :+1: **For Assembly codes** :--(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23) <br />
+                          --(https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html) <br /> 
+                          --(https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm)<br />
+                          --(https://github.com/Dman95/SASM/issues) <br />
+                          --(www.rosettacode.org) <br />
   
 -  :+1:**Instructions on assembly coding**
   
