@@ -23,6 +23,31 @@ Step 5.  Then
   ```
   Note: Password is stoke
   
+Step 6 (incase you get an error message that your docker container is already running). To stop and remove the docker container follow the steps as below:
+
+```
+     sudo docker container ls -a
+```
+Check for the number of the container and then stop using 
+
+```
+   docker stop (number)
+   
+```
+
+And finally remove it using
+
+``` 
+docker container rm (number)
+```
+Alternatively you can also make sure that you prune all the volumes by:
+
+```
+docker system prune --volumes
+docker system prune
+```
+
+  
 - :+1: **For Assembly codes** :(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23), 
                           (https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html), 
                           (https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm),
@@ -65,7 +90,11 @@ Step 5.  Then
 <br>
 </br>
 
-
+ :+1:  ***The output for the Stoke search Result sample***
+   Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
+   
+   
+   ***The Result is stored in resulttext.txt***
 
  -:+1:  ------->**_Explanation for output.tc_**<------------
    
@@ -79,4 +108,5 @@ The Intel makes (Sandybridge - i5; Haswell - i3 ) make use of AVX (Advanced Vect
 
 Finally the last set of result in output.tc gives a set of valid and invalid contents of flag on stack and heap. Bytes will be segregated in valid and invalid. This brings me to the Final Configuration of the Stoke project. 
 
- ***irrelavant: path to git from source laptop: shrinish@shrinish-Inspiron-13-5378 ── ~/stoke-Superoptimisation/learning-superoptimize ── ‹master*› ***
+ ***irrelavant: path to git from source laptop: shrinish@shrinish-Inspiron-13-5378 ── ~/stoke-Superoptimisation/learning-superoptimize ── ‹master*›; and from source PC: shrinish@shrinish-desktop ── ~/branch/learning-superoptimize ── ‹master*› 
+ ***
