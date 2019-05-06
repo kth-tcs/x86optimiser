@@ -26,6 +26,8 @@ Step 5.  Then
 Step 6 (incase you get an error message that your docker container is already running). To stop and remove the docker container follow the steps as below:
 
 ```
+     docker system prune
+     docker system prune --volumes
      sudo docker container ls -a
 ```
 Check for the number of the container and then stop using 
@@ -38,13 +40,13 @@ Check for the number of the container and then stop using
 And finally remove it using
 
 ``` 
-docker container rm (number)
+   docker container rm (number)
 ```
 Alternatively you can also make sure that you prune all the volumes by:
 
 ```
 docker system prune --volumes
-docker system prune
+
 ```
 
   
