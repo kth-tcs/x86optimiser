@@ -108,7 +108,16 @@ To know the current status of the processor in an intel make, the processors hav
 
 The Intel makes (Sandybridge - i5; Haswell - i3 ) make use of AVX (Advanced Vector Extension) instruction set and the registers (YMM0 to YMM15) represent the condition of the registers just before execution of the test. The new make (Nehalem - i7) however, uses the MMX instruction set. The technical data of registers that concerns these systems is generally packed in file format (technical Data) and so the weird extension (output.tc).
 
-Finally the last set of result in output.tc gives a set of valid and invalid contents of flag on stack and heap. Bytes will be segregated in valid and invalid. This brings me to the Final Configuration of the Stoke project. 
+Finally the last set of result in output.tc gives a set of valid and invalid contents of flag on stack and heap. Bytes will be segregated in valid and invalid. This brings me to the Final Configuration of the Stoke project as explained below. 
+
+
+When STOKE finishes generating the search from the testcases provided it generates a low-cost verified version of the same program. The generated function _Z6popcntm.s which is stored in bins directory is a compiled version of the main.cc and main2.cc programs pushed on Github. To go in-depth, the popcnt function is the function which is used in main.cc and main2.cc programs. It is a built-in function which is used for counting the population of the number of bits. This function was created because it gave a way for optimising the programs for eg. Replacing serial-shifting operation. This is used in operations where large amount of memory is used, to sort the contents and to get a lookup table of the population count.
+Link : (https://en.wikichip.org/wiki/population_count)
+
+This program is compiled via g++ and gets stored in a mangled name _Z6popcntm. When _Z6popcntm function is passed as a testcase, i.e after the testcase arg., when we implement (stoke synthesis), we have input target as _Z6popcntm.s, the generated testcases as --testcases and the output in the desired location via -o <path/to/output>.
+
+When the project discovers a low-cost verified rewrite code it will take its output and log under, Progress Update and consequently the statistics table. The replace.conf file can be used for patching the result in the original binary. One more thing to cross verify, the execution time, i.e runtime measurement stats are also several magnitudes lesser than the previous found run-times.
+ Command: time ./a.out 1000000 (the last figure is the number of iterations which can be kept constant for comparison
 
  ***irrelavant: path to git from source laptop: shrinish@shrinish-Inspiron-13-5378 ── ~/stoke-Superoptimisation/learning-superoptimize ── ‹master*›; and from source PC: shrinish@shrinish-desktop ── ~/branch/learning-superoptimize ── ‹master*› 
  ***
