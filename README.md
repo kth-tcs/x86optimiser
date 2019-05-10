@@ -50,11 +50,11 @@ docker system prune --volumes
 ```
 
   
-- :+1: **For Assembly codes** :--(https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23) <br />
-                          --(https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html) <br /> 
-                          --(https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.htm)<br />
-                          --(https://github.com/Dman95/SASM/issues) <br />
-                          --(www.rosettacode.org) <br />
+- :+1: <strong>For Assembly codes</strong><ol>https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23</ol>
+                          <ol>https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html</ol> 
+                          <ol>https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.html </ol>
+                         <ol>https://github.com/Dman95/SASM/issues </ol>
+                          <ol>www.rosettacode.org</ol>
   
 -  :+1:**Instructions on assembly coding**
   
@@ -94,6 +94,10 @@ docker system prune --volumes
    ```
 <br>
 </br>
+      Links: <ol>https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html</ol>
+             <ol>http://www.wisdom.weizmann.ac.il/~ethanf/MCMC/stochastic%20optimization.pdf</ol>
+             <ol>http://llvm.org/docs/GettingStarted.html#getting-a-modern-host-c-toolchain</ol>
+
 
  :+1:  ***The output for the Stoke search Result sample***
    Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
