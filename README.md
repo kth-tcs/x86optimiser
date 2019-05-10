@@ -55,7 +55,9 @@ docker system prune --volumes
                           <ol>https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.html </ol>
                          <ol>https://github.com/Dman95/SASM/issues </ol>
                           <ol>www.rosettacode.org</ol>
+  <br>
   
+  </br>
 -  :+1:**Instructions on assembly coding**
   
   Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
@@ -128,3 +130,13 @@ When the project discovers a low-cost verified rewrite code it will take its out
 
  ***irrelavant: path to git from source laptop: shrinish@shrinish-Inspiron-13-5378 ── ~/stoke-Superoptimisation/learning-superoptimize ── ‹master*›; and from source PC: shrinish@shrinish-desktop ── ~/branch/learning-superoptimize ── ‹master*› 
  ***
+
+
+
+<br>
+
+
+</br>
+
+<p><strong>STOKE REPO:</strong>https://github.com/StanfordPL/stoke</p>
+<p><strong>SOUPER GOOGLE:</strong>https://github.com/google/souper</p>
