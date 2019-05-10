@@ -100,6 +100,9 @@ docker system prune --volumes
              <ol>http://www.wisdom.weizmann.ac.il/~ethanf/MCMC/stochastic%20optimization.pdf</ol>
              <ol>http://llvm.org/docs/GettingStarted.html#getting-a-modern-host-c-toolchain</ol>
 
+<br>
+
+</br>
 
  :+1:  ***The output for the Stoke search Result sample***
    Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
