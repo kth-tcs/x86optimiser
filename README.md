@@ -93,7 +93,16 @@ docker system prune --volumes
    
    ```
    $ export PATH=$PATH:/<path_to_stoke>/bin
-   $ g++ -std=c++11 -Og -finline-limit=15 main2.cc
+   $ g++ -std=c++11 -Og -finline-limit=15 main2.cc -o b.out
+   
+   The optimisations obtained from the above line give 1 magntiude improved time based performance on the timings: 
+   
+   time ./b.out 1000000
+89789
+real	0m0.006s
+user	0m0.001s
+sys	0m0.005s
+
    
    ```
 <br>
