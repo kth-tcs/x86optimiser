@@ -695,3 +695,24 @@ retq                           retq
 ################################################################################
 
 Search terminated successfully with a verified rewrite!
+
+
+
+
+
+
+Timing Analysis: 
+
+1. time ./a.out 1000000
+
+real	0m0.054s
+user	0m0.054s
+sys	0m0.000s
+
+Standard Time for optimised code for main.cc (binary file): 0.054s 
+
+2. on -Og optimisations time decreases by a magnitude,
+
+real 0m0.002s
+user 0m0.003s
+sys  0m0.000s
