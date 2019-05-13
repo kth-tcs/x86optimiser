@@ -88,10 +88,12 @@ docker system prune --volumes
    Some Links on Optimisations: 
       <ul>
    
-   ***PLEASE NOTE: Specify the path to the stoke to get 'stoke' commands in your system. As such:***
+   **PLEASE NOTE: Specify the path to the stoke to get 'stoke' commands in your system. As such:**
+   **Further: Also specify the following -Og command for full optimisations on the algorithm in g++**
    
    ```
    $ export PATH=$PATH:/<path_to_stoke>/bin
+   $ g++ -std=c++11 -Og -finline-limit=15 main2.cc
    
    ```
 <br>
