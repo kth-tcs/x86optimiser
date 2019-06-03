@@ -1,0 +1,38 @@
+Final update:
+
+Total search iterations:       800000
+Number of attempted searches:  2
+Total search time:             11.2411s
+Total time:                    11.681s
+
+Statistics of last search
+
+Iterations:                    400000
+Elapsed Time:                  6.49464s
+Iterations/s:                  61589.2
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.7507%     8.52075%      1.21275%     
+Opcode          6.6115%      6.36925%      6.21825%     
+OpcodeWidth     0%           0%            0%           
+Operand         6.66225%     0.3395%       0.22%        
+Local Swap      6.587%       0.20225%      0.08025%     
+Global Swap     6.681%       5.66625%      5.55925%     
+Rotate          6.7075%      5.792%        5.60575%     
+                                                        
+Total           100%         26.89%        18.8962%     
+
+Lowest Cost Discovered (4)     Lowest Known Correct Cost (4)     
+                                                                 
+._Z6paritym:                   ._Z6paritym:                      
+xorw $0x4, %di                 xorw $0x4, %di                    
+setp %dil                      setp %dil                         
+movzbq %dil, %rax              movzbq %dil, %rax                 
+retq                           retq                        
