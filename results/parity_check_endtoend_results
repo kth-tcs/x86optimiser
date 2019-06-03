@@ -1,0 +1,2157 @@
+Running search (timeout is 400000 iterations):
+
+Progress Update: 
+
+Lowest Cost Discovered (30)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+rorb $0x1, %ah                  shrq $0x1, %rax                    
+cltd                            andl $0x1, %eax                    
+cmpb $0xc0, %ah                 movq %rax, %rdx                    
+andq $0xfffffffc, %rdx          movq %rdi, %rax                    
+movswl %di, %ecx                shrq $0x2, %rax                    
+sbbl $0xffffffe0, %edi          andl $0x1, %eax                    
+movsbq %dil, %rsi               addq %rdx, %rax                    
+sarb %cl, %ch                   movq %rdi, %rdx                    
+orw $0xfffb, %ax                andl $0x1, %edx                    
+clc                             addq %rdx, %rax                    
+rorb %cl, %ah                   movq %rdi, %rdx                    
+leal -0x2(,%rax,8), %r8d        shrq $0x3, %rdx                    
+orl $0x4, %eax                  andl $0x1, %edx                    
+imulw %si, %si                  addq %rdx, %rax                    
+rclb $0x1, %dh                  movq %rdi, %rdx                    
+setae %dh                       shrq $0x4, %rdx                    
+xorb %ah, %ch                   andl $0x1, %edx                    
+sbbw $0x10, %di                 addq %rax, %rdx                    
+cmpb $0xfb, %dh                 movq %rdi, %rax                    
+setpe %ch                       shrq $0x5, %rax                    
+shrdq %cl, %rdi, %rcx           andl $0x1, %eax                    
+imulw %ax                       addq %rax, %rdx                    
+andl $0x5, %eax                 movq %rdi, %rax                    
+retq                            shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (29)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+rorb $0x1, %ah                  shrq $0x1, %rax                    
+cltd                            andl $0x1, %eax                    
+cmpb $0xc0, %ah                 movq %rax, %rdx                    
+movswl %di, %ecx                movq %rdi, %rax                    
+sbbl $0xffffffe0, %edi          shrq $0x2, %rax                    
+movsbq %dil, %rsi               andl $0x1, %eax                    
+sarb %cl, %ch                   addq %rdx, %rax                    
+orw $0xfffb, %ax                movq %rdi, %rdx                    
+clc                             andl $0x1, %edx                    
+rorb %cl, %ah                   addq %rdx, %rax                    
+leal -0x2(,%rax,8), %r8d        movq %rdi, %rdx                    
+orl $0x4, %eax                  shrq $0x3, %rdx                    
+imulw %si, %si                  andl $0x1, %edx                    
+rclb $0x1, %dh                  addq %rdx, %rax                    
+setae %dh                       movq %rdi, %rdx                    
+rcrb $0x0, %ah                  shrq $0x4, %rdx                    
+sbbw $0x10, %di                 andl $0x1, %edx                    
+cmpb $0xfb, %dh                 addq %rax, %rdx                    
+setpe %ch                       movq %rdi, %rax                    
+shrdq %cl, %rdi, %rcx           shrq $0x5, %rax                    
+imulw %ax                       andl $0x1, %eax                    
+andl $0x5, %eax                 addq %rax, %rdx                    
+retq                            movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (28)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movswl %ax, %esi                shrq $0x1, %rax                    
+cltd                            andl $0x1, %eax                    
+imull $0x1, %edi, %eax          movq %rax, %rdx                    
+notw %di                        movq %rdi, %rax                    
+xorw %si, %si                   shrq $0x2, %rax                    
+shrb $0x1, %ah                  andl $0x1, %eax                    
+orb %dl, %dl                    addq %rdx, %rax                    
+orw $0xfffb, %ax                movq %rdi, %rdx                    
+movzwl %dx, %ecx                andl $0x1, %edx                    
+cmpw $0x40, %ax                 addq %rdx, %rax                    
+sarb $0x1, %cl                  movq %rdi, %rdx                    
+xorl %eax, %ecx                 shrq $0x3, %rdx                    
+andb %dil, %dil                 andl $0x1, %edx                    
+sbbw $0x8, %di                  addq %rdx, %rax                    
+imulw %ax                       movq %rdi, %rdx                    
+sarw %cl, %dx                   shrq $0x4, %rdx                    
+xorb $0x80, %al                 andl $0x1, %edx                    
+testl %esi, %ecx                addq %rax, %rdx                    
+shlb $0x1, %sil                 movq %rdi, %rax                    
+rclb $0x1, %dh                  shrq $0x5, %rax                    
+andl $0x5, %eax                 andl $0x1, %eax                    
+retq                            addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (27)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+movswl %ax, %esi                  shrq $0x1, %rax                    
+cltd                              andl $0x1, %eax                    
+imull $0x1, %edi, %eax            movq %rax, %rdx                    
+xorw %dx, %di                     movq %rdi, %rax                    
+xorw %si, %si                     shrq $0x2, %rax                    
+imull $0xfffffffc, %edi, %ecx     andl $0x1, %eax                    
+orb %dl, %dl                      addq %rdx, %rax                    
+orw $0xfffb, %ax                  movq %rdi, %rdx                    
+movzwl %dx, %ecx                  andl $0x1, %edx                    
+cmpw $0x40, %ax                   addq %rdx, %rax                    
+rcrq %cl, %rcx                    movq %rdi, %rdx                    
+xorl %eax, %ecx                   shrq $0x3, %rdx                    
+adcb %ch, %ah                     andl $0x1, %edx                    
+cmpb %dil, %dil                   addq %rdx, %rax                    
+imulw %ax                         movq %rdi, %rdx                    
+rolb $0x1, %sil                   shrq $0x4, %rdx                    
+xorb %cl, %cl                     andl $0x1, %edx                    
+movswl %di, %ecx                  addq %rax, %rdx                    
+rcrw $0x80, %ax                   movq %rdi, %rax                    
+andl $0x5, %eax                   shrq $0x5, %rax                    
+retq                              andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (26)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+movswl %ax, %esi                  andl $0x1, %eax                    
+btw %ax, %di                      movq %rax, %rdx                    
+btsw $0xfe, %ax                   movq %rdi, %rax                    
+imull $0xffffff80, %edi, %ecx     shrq $0x2, %rax                    
+testl $0xffffffe0, %eax           andl $0x1, %eax                    
+stc                               addq %rdx, %rax                    
+orw $0xfffb, %ax                  movq %rdi, %rdx                    
+movsbw %al, %r11w                 andl $0x1, %edx                    
+cmc                               addq %rdx, %rax                    
+seta %ah                          movq %rdi, %rdx                    
+subl %ecx, %esi                   shrq $0x3, %rdx                    
+setnle %dl                        andl $0x1, %edx                    
+setnp %r9b                        addq %rdx, %rax                    
+imulw %ax                         movq %rdi, %rdx                    
+andl %esi, %edx                   shrq $0x4, %rdx                    
+addb $0xe0, %al                   andl $0x1, %edx                    
+addb %cl, %ch                     addq %rax, %rdx                    
+andl $0x5, %eax                   movq %rdi, %rax                    
+retq                              shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (25)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+movswl %ax, %esi                  andl $0x1, %eax                    
+btw %ax, %di                      movq %rax, %rdx                    
+addw $0x6, %di                    movq %rdi, %rax                    
+imull $0xffffff80, %edi, %ecx     shrq $0x2, %rax                    
+testl $0xffffffe0, %eax           andl $0x1, %eax                    
+orw %dx, %si                      addq %rdx, %rax                    
+orw $0xfffb, %ax                  movq %rdi, %rdx                    
+movsbw %al, %r11w                 andl $0x1, %edx                    
+addl $0x6, %eax                   addq %rdx, %rax                    
+subl %ecx, %esi                   movq %rdi, %rdx                    
+movswl %si, %edx                  shrq $0x3, %rdx                    
+setnle %dl                        andl $0x1, %edx                    
+setae %r8b                        addq %rdx, %rax                    
+imulw %ax                         movq %rdi, %rdx                    
+andl %esi, %edx                   shrq $0x4, %rdx                    
+addb %cl, %ch                     andl $0x1, %edx                    
+andl $0x5, %eax                   addq %rax, %rdx                    
+retq                              movq %rdi, %rax                    
+                                  shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (24)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+movswl %ax, %esi                  andl $0x1, %eax                    
+btw %ax, %di                      movq %rax, %rdx                    
+addw $0x6, %di                    movq %rdi, %rax                    
+imull $0xffffff80, %edi, %ecx     shrq $0x2, %rax                    
+testl $0xffffffe0, %eax           andl $0x1, %eax                    
+orw $0xfffb, %ax                  addq %rdx, %rax                    
+movsbw %al, %r11w                 movq %rdi, %rdx                    
+cmpb %r11b, %al                   andl $0x1, %edx                    
+movsbl %dh, %edi                  addq %rdx, %rax                    
+movswl %si, %edx                  movq %rdi, %rdx                    
+setnle %dl                        shrq $0x3, %rdx                    
+subb %ch, %ch                     andl $0x1, %edx                    
+imulw %ax                         addq %rdx, %rax                    
+andl %esi, %edx                   movq %rdi, %rdx                    
+sbbb %al, %dil                    shrq $0x4, %rdx                    
+andl $0x5, %eax                   andl $0x1, %edx                    
+retq                              addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (23)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+movswl %ax, %esi                  andl $0x1, %eax                    
+btw %ax, %di                      movq %rax, %rdx                    
+addw $0x6, %di                    movq %rdi, %rax                    
+imull $0xffffff80, %edi, %ecx     shrq $0x2, %rax                    
+orw $0xfffb, %ax                  andl $0x1, %eax                    
+seto %dh                          addq %rdx, %rax                    
+cmpb %cl, %al                     movq %rdi, %rdx                    
+subb %ch, %ch                     andl $0x1, %edx                    
+movswl %si, %edx                  addq %rdx, %rax                    
+setpe %ch                         movq %rdi, %rdx                    
+movsbl %dh, %edi                  shrq $0x3, %rdx                    
+imulw %ax                         andl $0x1, %edx                    
+cmpq $0x10, %rax                  addq %rdx, %rax                    
+sbbb %al, %dil                    movq %rdi, %rdx                    
+andl $0x5, %eax                   shrq $0x4, %rdx                    
+retq                              andl $0x1, %edx                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (22)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+btw %ax, %di                      andl $0x1, %eax                    
+addw $0x6, %di                    movq %rax, %rdx                    
+imull $0xffffff80, %edi, %ecx     movq %rdi, %rax                    
+orw $0xfffb, %ax                  shrq $0x2, %rax                    
+seto %dh                          andl $0x1, %eax                    
+cmpb %cl, %al                     addq %rdx, %rax                    
+subb %ch, %ch                     movq %rdi, %rdx                    
+addl $0x5, %edi                   andl $0x1, %edx                    
+adcw $0xfff8, %cx                 addq %rdx, %rax                    
+decb %dh                          movq %rdi, %rdx                    
+imulw %ax                         shrq $0x3, %rdx                    
+cmpq $0x10, %rax                  andl $0x1, %edx                    
+bsrw %dx, %r9w                    addq %rdx, %rax                    
+andl $0x5, %eax                   movq %rdi, %rdx                    
+retq                              shrq $0x4, %rdx                    
+                                  andl $0x1, %edx                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (21)       Lowest Known Correct Cost (31)     
+                                                                     
+._Z6paritym:                      ._Z6paritym:                       
+movq %rdi, %rax                   movq %rdi, %rax                    
+cltd                              shrq $0x1, %rax                    
+btw %ax, %di                      andl $0x1, %eax                    
+shll $0xfa, %eax                  movq %rax, %rdx                    
+imull $0xffffff80, %edi, %ecx     movq %rdi, %rax                    
+adcb $0xfa, %al                   shrq $0x2, %rax                    
+setnp %dl                         andl $0x1, %eax                    
+shlb $0x1, %dh                    addq %rdx, %rax                    
+movl $0xffffffff, %r9d            movq %rdi, %rdx                    
+setnbe %r8b                       andl $0x1, %edx                    
+xchgw %ax, %r9w                   addq %rdx, %rax                    
+imulw %ax                         movq %rdi, %rdx                    
+addl $0x5, %edi                   shrq $0x3, %rdx                    
+orl $0x10, %eax                   andl $0x1, %edx                    
+andl $0x5, %eax                   addq %rdx, %rax                    
+retq                              movq %rdi, %rdx                    
+                                  shrq $0x4, %rdx                    
+                                  andl $0x1, %edx                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x5, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rax, %rdx                    
+                                  movq %rdi, %rax                    
+                                  shrq $0x7, %rdi                    
+                                  shrq $0x6, %rax                    
+                                  andl $0x1, %eax                    
+                                  addq %rdx, %rax                    
+                                  addq %rdi, %rax                    
+                                  andl $0x1, %eax                    
+                                  retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (20)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+cwtd                            shrq $0x1, %rax                    
+cltd                            andl $0x1, %eax                    
+movzbw %dl, %si                 movq %rax, %rdx                    
+rolb $0x1, %dh                  movq %rdi, %rax                    
+xorw %di, %ax                   shrq $0x2, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+subb $0xfd, %al                 addq %rdx, %rax                    
+addw $0xffe0, %dx               movq %rdi, %rdx                    
+setnge %cl                      andl $0x1, %edx                    
+cmpl %eax, %edi                 addq %rdx, %rax                    
+sall $0x1, %edx                 movq %rdi, %rdx                    
+setnle %ch                      shrq $0x3, %rdx                    
+andl $0x5, %eax                 andl $0x1, %edx                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+shlw $0xf8, %ax                 shrq $0x1, %rax                    
+cltd                            andl $0x1, %eax                    
+movb %al, %al                   movq %rax, %rdx                    
+subq $0xfffffff9, %rax          movq %rdi, %rax                    
+idivl %edi                      shrq $0x2, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+subb $0xfd, %al                 addq %rdx, %rax                    
+setb %ah                        movq %rdi, %rdx                    
+setc %cl                        andl $0x1, %edx                    
+movw %di, %r9w                  addq %rdx, %rax                    
+adcb %r9b, %cl                  movq %rdi, %rdx                    
+andl $0x5, %eax                 shrq $0x3, %rdx                    
+retq                            andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (18)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+sarb $0x1, %dil                 shrq $0x1, %rax                    
+sbbw $0x5, %ax                  andl $0x1, %eax                    
+testq $0x8, %rdi                movq %rax, %rdx                    
+movl $0x2, %edx                 movq %rdi, %rax                    
+sbbw %ax, %dx                   shrq $0x2, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+subb $0xfd, %al                 addq %rdx, %rax                    
+setc %cl                        movq %rdi, %rdx                    
+movb %dh, %ah                   andl $0x1, %edx                    
+andb %dl, %ah                   addq %rdx, %rax                    
+andl $0x5, %eax                 movq %rdi, %rdx                    
+retq                            shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+cmpw $0x40, %ax                 shrq $0x1, %rax                    
+rorb $0xfe, %al                 andl $0x1, %eax                    
+rcrw $0x1, %ax                  movq %rax, %rdx                    
+movl $0x2, %edx                 movq %rdi, %rax                    
+cmpw %ax, %dx                   shrq $0x2, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+subb $0xfd, %al                 addq %rdx, %rax                    
+shlb $0x1, %dl                  movq %rdi, %rdx                    
+sarb $0x1, %dl                  andl $0x1, %edx                    
+andl $0x5, %eax                 addq %rdx, %rax                    
+retq                            movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (16)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+btrl %edi, %eax                 shrq $0x1, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+adcb %ah, %al                   movq %rax, %rdx                    
+subl $0xfffffffd, %eax          movq %rdi, %rax                    
+xchgw %di, %di                  shrq $0x2, %rax                    
+salb $0x1, %ah                  andl $0x1, %eax                    
+movzbl %al, %edx                addq %rdx, %rax                    
+addb $0xfa, %dh                 movq %rdi, %rdx                    
+andl $0x5, %eax                 andl $0x1, %edx                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (15)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+incb %ah                        shrq $0x1, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+subl $0xfffffffd, %eax          movq %rax, %rdx                    
+xchgw %di, %di                  movq %rdi, %rax                    
+cmpb $0x40, %al                 shrq $0x2, %rax                    
+movzbl %al, %edx                andl $0x1, %eax                    
+orb $0xc0, %dl                  addq %rdx, %rax                    
+andl $0x5, %eax                 movq %rdi, %rdx                    
+retq                            andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (14)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+testq $0xfffffffe, %rax         shrq $0x1, %rax                    
+xorl %eax, %eax                 andl $0x1, %eax                    
+setnle %ch                      movq %rax, %rdx                    
+orl $0xffffff80, %eax           movq %rdi, %rax                    
+subl $0xfffffffd, %eax          shrq $0x2, %rax                    
+setg %ch                        andl $0x1, %eax                    
+andl $0x5, %eax                 addq %rdx, %rax                    
+retq                            movq %rdi, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (13)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movswl %di, %eax                movq %rdi, %rax                    
+xorl %eax, %eax                 shrq $0x1, %rax                    
+adcb $0xfe, %al                 andl $0x1, %eax                    
+cmpw $0xfff8, %di               movq %rax, %rdx                    
+subl $0xfffffffd, %eax          movq %rdi, %rax                    
+setg %ch                        shrq $0x2, %rax                    
+setnbe %ah                      andl $0x1, %eax                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (12)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movzwl %di, %eax                movq %rdi, %rax                    
+subb %ah, %ah                   shrq $0x1, %rax                    
+movb $0xfe, %al                 andl $0x1, %eax                    
+subl $0xfffffffd, %eax          movq %rax, %rdx                    
+setnle %dh                      movq %rdi, %rax                    
+setnbe %ah                      shrq $0x2, %rax                    
+retq                            andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (11)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movzwl %di, %eax                movq %rdi, %rax                    
+movb $0xfe, %al                 shrq $0x1, %rax                    
+orb %al, %al                    andl $0x1, %eax                    
+subl $0xfffffffd, %eax          movq %rax, %rdx                    
+xorb %ah, %ah                   movq %rdi, %rax                    
+retq                            shrq $0x2, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (10)     Lowest Known Correct Cost (31)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movzwl %di, %eax                movq %rdi, %rax                    
+movb $0xfe, %al                 shrq $0x1, %rax                    
+subl $0xfffffffd, %eax          andl $0x1, %eax                    
+subb %ah, %ah                   movq %rax, %rdx                    
+retq                            movq %rdi, %rax                    
+                                shrq $0x2, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                andl $0x1, %eax                    
+                                addq %rdx, %rax                    
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (9)     Lowest Known Correct Cost (31)     
+                                                                  
+._Z6paritym:                   ._Z6paritym:                       
+movzwl %di, %eax               movq %rdi, %rax                    
+xorw %ax, %ax                  shrq $0x1, %rax                    
+incl %eax                      andl $0x1, %eax                    
+retq                           movq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x2, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x3, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x4, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x5, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x7, %rdi                    
+                               shrq $0x6, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               addq %rdi, %rax                    
+                               andl $0x1, %eax                    
+                               retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (8)     Lowest Known Correct Cost (31)     
+                                                                  
+._Z6paritym:                   ._Z6paritym:                       
+imull $0x0, %edi, %eax         movq %rdi, %rax                    
+adcl $0x1, %eax                shrq $0x1, %rax                    
+retq                           andl $0x1, %eax                    
+                               movq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x2, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x3, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x4, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x5, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x7, %rdi                    
+                               shrq $0x6, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               addq %rdi, %rax                    
+                               andl $0x1, %eax                    
+                               retq                               
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.762479s
+Iterations/s:                  65575.6
+
+Starting cost:                 31
+Lowest cost:                   8
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.568%      5.388%        2.342%       
+Opcode          6.646%       6.464%        6.368%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.694%       0.29%         0.2%         
+Local Swap      6.774%       0.264%        0.144%       
+Global Swap     6.648%       5.824%        5.728%       
+Rotate          6.67%        5.92%         5.774%       
+                                                        
+Total           100%         24.15%        20.556%      
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (7)     Lowest Known Correct Cost (31)     
+                                                                  
+._Z6paritym:                   ._Z6paritym:                       
+movl $0x1, %eax                movq %rdi, %rax                    
+retq                           shrq $0x1, %rax                    
+                               andl $0x1, %eax                    
+                               movq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x2, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x3, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x4, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x5, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x7, %rdi                    
+                               shrq $0x6, %rax                    
+                               andl $0x1, %eax                    
+                               addq %rdx, %rax                    
+                               addq %rdi, %rax                    
+                               andl $0x1, %eax                    
+                               retq                               
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  1.34666s
+Iterations/s:                  74257.7
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.774%      3.534%        1.586%       
+Opcode          6.58%        6.402%        6.353%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.67%        0.208%        0.142%       
+Local Swap      6.743%       0.14%         0.08%        
+Global Swap     6.655%       5.869%        5.819%       
+Rotate          6.578%       5.862%        5.777%       
+                                                        
+Total           100%         22.015%       19.757%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    150000
+Elapsed Time:                  1.90377s
+Iterations/s:                  78791.1
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded      Accepted       
+                                                           
+Add Nops        0%           0%             0%             
+Delete          0%           0%             0%             
+Instruction     66.686%      2.55533%       1.18%          
+Opcode          6.57533%     6.35867%       6.32533%       
+OpcodeWidth     0%           0%             0%             
+Operand         6.71%        0.173333%      0.1%           
+Local Swap      6.73933%     0.0986667%     0.0586667%     
+Global Swap     6.70333%     5.93067%       5.89533%       
+Rotate          6.586%       5.86933%       5.81133%       
+                                                           
+Total           100%         20.986%        19.3707%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    200000
+Elapsed Time:                  2.47183s
+Iterations/s:                  80911.9
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.729%      2.2055%       1.0735%      
+Opcode          6.587%       6.3585%       6.333%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.6555%      0.154%        0.082%       
+Local Swap      6.7035%      0.08%         0.05%        
+Global Swap     6.7125%      5.932%        5.904%       
+Rotate          6.6125%      5.8855%       5.833%       
+                                                        
+Total           100%         20.6155%      19.2755%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    250000
+Elapsed Time:                  3.02772s
+Iterations/s:                  82570.4
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.784%      1.8412%       0.9036%      
+Opcode          6.5676%      6.3264%       6.306%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.6496%      0.1412%       0.0688%      
+Local Swap      6.638%       0.0672%       0.0432%      
+Global Swap     6.7172%      5.942%        5.9168%      
+Rotate          6.6436%      5.9124%       5.8656%      
+                                                        
+Total           100%         20.2304%      19.104%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    300000
+Elapsed Time:                  3.57443s
+Iterations/s:                  83929.5
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     66.7833%     1.585%        0.785667%      
+Opcode          6.567%       6.319%        6.30167%       
+OpcodeWidth     0%           0%            0%             
+Operand         6.65933%     0.132%        0.0593333%     
+Local Swap      6.639%       0.058%        0.0376667%     
+Global Swap     6.73867%     5.97667%      5.955%         
+Rotate          6.61267%     5.898%        5.85667%       
+                                                          
+Total           100%         19.9687%      18.996%        
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    350000
+Elapsed Time:                  4.16962s
+Iterations/s:                  83940.5
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded      Accepted       
+                                                           
+Add Nops        0%           0%             0%             
+Delete          0%           0%             0%             
+Instruction     66.7831%     1.59714%       0.848%         
+Opcode          6.57257%     6.318%         6.30286%       
+OpcodeWidth     0%           0%             0%             
+Operand         6.66171%     0.135143%      0.0568571%     
+Local Swap      6.648%       0.0585714%     0.0408571%     
+Global Swap     6.73143%     5.96229%       5.94257%       
+Rotate          6.60314%     5.88514%       5.84743%       
+                                                           
+Total           100%         19.9563%       19.0386%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    400000
+Elapsed Time:                  4.74587s
+Iterations/s:                  84283.9
+
+Starting cost:                 31
+Lowest cost:                   7
+Lowest correct cost:           31
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.7267%     1.47625%      0.79625%     
+Opcode          6.587%       6.326%        6.3125%      
+OpcodeWidth     0%           0%            0%           
+Operand         6.652%       0.132%        0.05275%     
+Local Swap      6.6735%      0.05475%      0.03925%     
+Global Swap     6.73375%     5.968%        5.95%        
+Rotate          6.627%       5.91275%      5.8775%      
+                                                        
+Total           100%         19.8697%      19.0282%     
+
+********************************************************************************
+
+Unable to discover a new correct rewrite before timing out... 
+
+********************************************************************************
+
+Restarting search
+Running search (timeout is 400000 iterations):
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (30)     Lowest Known Correct Cost (30)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x1, %rax                 shrq $0x1, %rax                    
+andl $0x1, %eax                 andl $0x1, %eax                    
+movq %rax, %rdx                 movq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x2, %rax                 shrq $0x2, %rax                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+andw $0xfffb, %ax               andw $0xfffb, %ax                  
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+shrq $0x3, %rdx                 shrq $0x3, %rdx                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+xaddb %dh, %dh                  xaddb %dh, %dh                     
+andl $0x1, %edx                 andl $0x1, %edx                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+shrq $0x4, %rdx                 shrq $0x4, %rdx                    
+andl $0x1, %edx                 andl $0x1, %edx                    
+addq %rax, %rdx                 addq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x5, %rax                 shrq $0x5, %rax                    
+addq %rax, %rdx                 addq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x7, %rdi                 shrq $0x7, %rdi                    
+shrq $0x6, %rax                 shrq $0x6, %rax                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+cmc                             cmc                                
+addq %rdi, %rax                 addq %rdi, %rax                    
+andl $0x1, %eax                 andl $0x1, %eax                    
+retq                            retq                               
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (29)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x1, %rax                 shrq $0x1, %rax                    
+andl $0x1, %eax                 andl $0x1, %eax                    
+movq %rax, %rdx                 movq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x2, %rax                 shrq $0x2, %rax                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+shrq $0x3, %rdx                 shrq $0x3, %rdx                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+xaddb %dh, %dh                  xaddb %dh, %dh                     
+andl $0x1, %edx                 andl $0x1, %edx                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+movq %rdi, %rdx                 movq %rdi, %rdx                    
+shrq $0x4, %rdx                 shrq $0x4, %rdx                    
+andl $0x1, %edx                 andl $0x1, %edx                    
+addq %rax, %rdx                 addq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x5, %rax                 shrq $0x5, %rax                    
+addq %rax, %rdx                 addq %rax, %rdx                    
+movq %rdi, %rax                 movq %rdi, %rax                    
+shrq $0x7, %rdi                 shrq $0x7, %rdi                    
+shrq $0x6, %rax                 shrq $0x6, %rax                    
+addq %rdx, %rax                 addq %rdx, %rax                    
+cmc                             cmc                                
+addq %rdi, %rax                 addq %rdi, %rax                    
+andl $0x1, %eax                 andl $0x1, %eax                    
+retq                            retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (28)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movq %rax, %rdx                 shrq $0x1, %rax                    
+andw %ax, %dx                   andl $0x1, %eax                    
+setpe %dh                       movq %rax, %rdx                    
+notw %dx                        movq %rdi, %rax                    
+movq $0x5, %rax                 shrq $0x2, %rax                    
+sbbb %dh, %dh                   addq %rdx, %rax                    
+cmpw %dx, %di                   movq %rdi, %rdx                    
+movq $0x80, %r8                 shrq $0x3, %rdx                    
+cwtd                            addq %rdx, %rax                    
+testl $0x1, %eax                movq %rdi, %rdx                    
+sets %dl                        xaddb %dh, %dh                     
+imulw $0x1, %di, %r9w           andl $0x1, %edx                    
+incb %r9b                       addq %rdx, %rax                    
+testb $0xe0, %al                movq %rdi, %rdx                    
+shrw $0xfb, %di                 shrq $0x4, %rdx                    
+btw %r9w, %ax                   andl $0x1, %edx                    
+rorb $0x1, %r9b                 addq %rax, %rdx                    
+andl $0x10, %edx                movq %rdi, %rax                    
+addq $0x10, %rax                shrq $0x5, %rax                    
+andl $0x1, %eax                 addq %rax, %rdx                    
+subl %edx, %r8d                 movq %rdi, %rax                    
+retq                            shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (27)      Lowest Known Correct Cost (29)     
+                                                                    
+._Z6paritym:                     ._Z6paritym:                       
+movq %rdi, %rax                  movq %rdi, %rax                    
+movq %rax, %rdx                  shrq $0x1, %rax                    
+movsbl %dl, %r9d                 andl $0x1, %eax                    
+xorl $0xfffffffa, %eax           movq %rax, %rdx                    
+setnl %r8b                       movq %rdi, %rax                    
+movsbq %al, %r8                  shrq $0x2, %rax                    
+setne %ch                        addq %rdx, %rax                    
+setl %dil                        movq %rdi, %rdx                    
+btw $0x80, %dx                   shrq $0x3, %rdx                    
+movw $0xfff9, %di                addq %rdx, %rax                    
+btcw %ax, %r9w                   movq %rdi, %rdx                    
+andb %al, %ch                    xaddb %dh, %dh                     
+orl %r9d, %r9d                   andl $0x1, %edx                    
+andq $0x5, %r9                   addq %rdx, %rax                    
+rolb $0x1, %al                   movq %rdi, %rdx                    
+addw %dx, %di                    shrq $0x4, %rdx                    
+xaddl %edi, %r8d                 andl $0x1, %edx                    
+setbe %ch                        addq %rax, %rdx                    
+imulw %di                        movq %rdi, %rax                    
+leal 0x10(%rdx,%rdi,1), %eax     shrq $0x5, %rax                    
+setnc %dil                       addq %rax, %rdx                    
+andl $0x1, %eax                  movq %rdi, %rax                    
+retq                             shrq $0x7, %rdi                    
+                                 shrq $0x6, %rax                    
+                                 addq %rdx, %rax                    
+                                 cmc                                
+                                 addq %rdi, %rax                    
+                                 andl $0x1, %eax                    
+                                 retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (26)      Lowest Known Correct Cost (29)     
+                                                                    
+._Z6paritym:                     ._Z6paritym:                       
+movq %rdi, %rax                  movq %rdi, %rax                    
+movq %rax, %rdx                  shrq $0x1, %rax                    
+movsbl %dl, %r9d                 andl $0x1, %eax                    
+xorl $0xfffffffa, %eax           movq %rax, %rdx                    
+setnl %r8b                       movq %rdi, %rax                    
+movsbq %al, %r8                  shrq $0x2, %rax                    
+setne %ch                        addq %rdx, %rax                    
+setl %dil                        movq %rdi, %rdx                    
+movw $0xfff9, %di                shrq $0x3, %rdx                    
+btcw %ax, %r9w                   addq %rdx, %rax                    
+andb %al, %ch                    movq %rdi, %rdx                    
+orl %r9d, %r9d                   xaddb %dh, %dh                     
+andq $0x5, %r9                   andl $0x1, %edx                    
+rolb $0x1, %al                   addq %rdx, %rax                    
+addw %dx, %di                    movq %rdi, %rdx                    
+xaddl %edi, %r8d                 shrq $0x4, %rdx                    
+testb %dh, %dl                   andl $0x1, %edx                    
+imulw %di                        addq %rax, %rdx                    
+leal 0x10(%rdx,%rdi,1), %eax     movq %rdi, %rax                    
+setnc %dil                       shrq $0x5, %rax                    
+andl $0x1, %eax                  addq %rax, %rdx                    
+retq                             movq %rdi, %rax                    
+                                 shrq $0x7, %rdi                    
+                                 shrq $0x6, %rax                    
+                                 addq %rdx, %rax                    
+                                 cmc                                
+                                 addq %rdi, %rax                    
+                                 andl $0x1, %eax                    
+                                 retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (25)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movb $0x0, %dh                  shrq $0x1, %rax                    
+imulq %rax                      andl $0x1, %eax                    
+addl %edx, %eax                 movq %rax, %rdx                    
+xorb %ah, %ah                   movq %rdi, %rax                    
+leaw 0x8(%edi,%eax,1), %r8w     shrq $0x2, %rax                    
+movq $0x20, %rsi                addq %rdx, %rax                    
+sbbb %dl, %r8b                  movq %rdi, %rdx                    
+setpe %ch                       shrq $0x3, %rdx                    
+testw %r8w, %ax                 addq %rdx, %rax                    
+xorl %edi, %esi                 movq %rdi, %rdx                    
+btrl %edi, %eax                 xaddb %dh, %dh                     
+incb %dil                       andl $0x1, %edx                    
+shll $0x1, %edx                 addq %rdx, %rax                    
+setb %ch                        movq %rdi, %rdx                    
+movb $0xfd, %r9b                shrq $0x4, %rdx                    
+notl %esi                       andl $0x1, %edx                    
+andl $0x1, %eax                 addq %rax, %rdx                    
+retq                            movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (23)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movb $0x0, %dh                  shrq $0x1, %rax                    
+imulq %rax                      andl $0x1, %eax                    
+xorb %ah, %ah                   movq %rax, %rdx                    
+leaw 0x8(%edi,%eax,1), %r8w     movq %rdi, %rax                    
+movq $0x20, %rsi                shrq $0x2, %rax                    
+sbbb %dl, %r8b                  addq %rdx, %rax                    
+setpe %ch                       movq %rdi, %rdx                    
+setg %dh                        shrq $0x3, %rdx                    
+subw $0x3, %si                  addq %rdx, %rax                    
+xchgq %rax, %rsi                movq %rdi, %rdx                    
+incb %dil                       xaddb %dh, %dh                     
+rcrw $0xfc, %dx                 andl $0x1, %edx                    
+setb %ch                        addq %rdx, %rax                    
+rcrb $0xe0, %sil                movq %rdi, %rdx                    
+notl %esi                       shrq $0x4, %rdx                    
+andl $0x1, %eax                 andl $0x1, %edx                    
+retq                            addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (22)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movzbw %ah, %ax                 shrq $0x1, %rax                    
+movzbq %al, %rdx                andl $0x1, %eax                    
+testb %dh, %dh                  movq %rax, %rdx                    
+addb %dh, %ah                   movq %rdi, %rax                    
+movq $0x7, %rsi                 shrq $0x2, %rax                    
+cmpl $0xfffffffd, %eax          addq %rdx, %rax                    
+testw %di, %ax                  movq %rdi, %rdx                    
+xaddb %ah, %ah                  shrq $0x3, %rdx                    
+testq $0xfffffffc, %rax         addq %rdx, %rax                    
+movzwq %dx, %r11                movq %rdi, %rdx                    
+setnb %al                       xaddb %dh, %dh                     
+shrl $0x1, %r11d                andl $0x1, %edx                    
+seta %ah                        addq %rdx, %rax                    
+xorb %dl, %dil                  movq %rdi, %rdx                    
+andl $0x1, %eax                 shrq $0x4, %rdx                    
+retq                            andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (21)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+movzbw %ah, %ax                 shrq $0x1, %rax                    
+movzbq %al, %rdx                andl $0x1, %eax                    
+testb %dh, %dh                  movq %rax, %rdx                    
+addb %dh, %ah                   movq %rdi, %rax                    
+orw $0xffe0, %di                shrq $0x2, %rax                    
+xorq $0xfffffff0, %rax          addq %rdx, %rax                    
+testl $0xffffffff, %eax         movq %rdi, %rdx                    
+xaddb %ah, %ah                  shrq $0x3, %rdx                    
+testq $0xfffffffc, %rax         addq %rdx, %rax                    
+movzwq %dx, %r11                movq %rdi, %rdx                    
+setnb %al                       xaddb %dh, %dh                     
+seta %ah                        andl $0x1, %edx                    
+xorb %dl, %dil                  addq %rdx, %rax                    
+andl $0x1, %eax                 movq %rdi, %rdx                    
+retq                            shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (20)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+subq $0xfffffffc, %rax          shrq $0x1, %rax                    
+xorl $0x5, %edi                 andl $0x1, %eax                    
+mulb %dil                       movq %rax, %rdx                    
+subl $0x40, %eax                movq %rdi, %rax                    
+mull %eax                       shrq $0x2, %rax                    
+movzbq %al, %rdx                addq %rdx, %rax                    
+movb %dl, %dh                   movq %rdi, %rdx                    
+decl %eax                       shrq $0x3, %rdx                    
+xchgw %ax, %di                  addq %rdx, %rax                    
+xorb $0x6, %ah                  movq %rdi, %rdx                    
+movb %al, %al                   xaddb %dh, %dh                     
+setnb %al                       andl $0x1, %edx                    
+andl $0x1, %eax                 addq %rdx, %rax                    
+retq                            movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (19)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+mull %eax                       shrq $0x1, %rax                    
+bsrq %rdx, %r10                 andl $0x1, %eax                    
+xchgl %eax, %edi                movq %rax, %rdx                    
+andb $0x0, %ah                  movq %rdi, %rax                    
+andq $0xfffffffb, %rdi          shrq $0x2, %rax                    
+testb %dl, %dh                  addq %rdx, %rax                    
+movl $0xffffffc0, %eax          movq %rdi, %rdx                    
+subl $0xffffffe0, %edi          shrq $0x3, %rdx                    
+rcrb $0x1, %dil                 addq %rdx, %rax                    
+andl $0x1, %eax                 movq %rdi, %rdx                    
+setnb %al                       xaddb %dh, %dh                     
+imulw $0x6, %dx, %di            andl $0x1, %edx                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (17)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+mull %edi                       shrq $0x1, %rax                    
+imull $0x0, %eax, %eax          andl $0x1, %eax                    
+xorw $0x3, %ax                  movq %rax, %rdx                    
+btrl $0x80, %edx                movq %rdi, %rax                    
+xorw $0xfffc, %dx               shrq $0x2, %rax                    
+xorw $0x6, %ax                  addq %rdx, %rax                    
+addw $0x4, %ax                  movq %rdi, %rdx                    
+andl $0x1, %eax                 shrq $0x3, %rdx                    
+movsbw %dl, %dx                 addq %rdx, %rax                    
+bsfw %di, %r8w                  movq %rdi, %rdx                    
+retq                            xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (16)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+mull %edi                       shrq $0x1, %rax                    
+imull $0x0, %eax, %eax          andl $0x1, %eax                    
+subw $0x3, %ax                  movq %rax, %rdx                    
+btl %eax, %edx                  movq %rdi, %rax                    
+rcrw $0x1, %di                  shrq $0x2, %rax                    
+rcrw $0x1, %di                  addq %rdx, %rax                    
+andl $0x1, %eax                 movq %rdi, %rdx                    
+sets %ch                        shrq $0x3, %rdx                    
+andb $0x20, %dl                 addq %rdx, %rax                    
+retq                            movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (15)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+mull %edi                       shrq $0x1, %rax                    
+imull $0x0, %eax, %eax          andl $0x1, %eax                    
+subw $0x3, %ax                  movq %rax, %rdx                    
+btw $0x20, %ax                  movq %rdi, %rax                    
+rorb $0x2, %dl                  shrq $0x2, %rax                    
+andl $0x1, %eax                 addq %rdx, %rax                    
+sets %ch                        movq %rdi, %rdx                    
+rolb $0x1, %ch                  shrq $0x3, %rdx                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (14)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+mull %edi                       shrq $0x1, %rax                    
+imull $0x0, %eax, %eax          andl $0x1, %eax                    
+subw $0x3, %ax                  movq %rax, %rdx                    
+cltq                            movq %rdi, %rax                    
+andl $0x1, %eax                 shrq $0x2, %rax                    
+xchgw %di, %di                  addq %rdx, %rax                    
+rorq $0xfb, %rdi                movq %rdi, %rdx                    
+retq                            shrq $0x3, %rdx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (13)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+subl %edi, %eax                 shrq $0x1, %rax                    
+xorw $0x3, %ax                  andl $0x1, %eax                    
+testw $0xfffd, %ax              movq %rax, %rdx                    
+andl $0x1, %eax                 movq %rdi, %rax                    
+shrl $0x1, %edi                 shrq $0x2, %rax                    
+testb %al, %ah                  addq %rdx, %rax                    
+retq                            movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (12)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+subl %edi, %eax                 shrq $0x1, %rax                    
+setnl %al                       andl $0x1, %eax                    
+cltq                            movq %rax, %rdx                    
+movb $0x80, %r9b                movq %rdi, %rax                    
+orw %di, %di                    shrq $0x2, %rax                    
+retq                            addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (11)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+subl %edi, %eax                 shrq $0x1, %rax                    
+setbe %al                       andl $0x1, %eax                    
+xaddl %edi, %edi                movq %rax, %rdx                    
+xchgb %al, %al                  movq %rdi, %rax                    
+retq                            shrq $0x2, %rax                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (10)     Lowest Known Correct Cost (29)     
+                                                                   
+._Z6paritym:                    ._Z6paritym:                       
+movq %rdi, %rax                 movq %rdi, %rax                    
+subl %edi, %eax                 shrq $0x1, %rax                    
+setbe %al                       andl $0x1, %eax                    
+movb $0x80, %dh                 movq %rax, %rdx                    
+retq                            movq %rdi, %rax                    
+                                shrq $0x2, %rax                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x3, %rdx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                xaddb %dh, %dh                     
+                                andl $0x1, %edx                    
+                                addq %rdx, %rax                    
+                                movq %rdi, %rdx                    
+                                shrq $0x4, %rdx                    
+                                andl $0x1, %edx                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x5, %rax                    
+                                addq %rax, %rdx                    
+                                movq %rdi, %rax                    
+                                shrq $0x7, %rdi                    
+                                shrq $0x6, %rax                    
+                                addq %rdx, %rax                    
+                                cmc                                
+                                addq %rdi, %rax                    
+                                andl $0x1, %eax                    
+                                retq                               
+
+********************************************************************************
+
+Progress Update: 
+
+Lowest Cost Discovered (9)     Lowest Known Correct Cost (29)     
+                                                                  
+._Z6paritym:                   ._Z6paritym:                       
+movq %rdi, %rax                movq %rdi, %rax                    
+subl %eax, %eax                shrq $0x1, %rax                    
+setbe %al                      andl $0x1, %eax                    
+retq                           movq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x2, %rax                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x3, %rdx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               xaddb %dh, %dh                     
+                               andl $0x1, %edx                    
+                               addq %rdx, %rax                    
+                               movq %rdi, %rdx                    
+                               shrq $0x4, %rdx                    
+                               andl $0x1, %edx                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x5, %rax                    
+                               addq %rax, %rdx                    
+                               movq %rdi, %rax                    
+                               shrq $0x7, %rdi                    
+                               shrq $0x6, %rax                    
+                               addq %rdx, %rax                    
+                               cmc                                
+                               addq %rdi, %rax                    
+                               andl $0x1, %eax                    
+                               retq                               
+
+********************************************************************************
+
+No action on new best correct
+Progress Update: 
+
+Lowest Cost Discovered (4)     Lowest Known Correct Cost (4)     
+                                                                 
+._Z6paritym:                   ._Z6paritym:                      
+xorw $0x4, %di                 xorw $0x4, %di                    
+setp %dil                      setp %dil                         
+movzbq %dil, %rax              movzbq %dil, %rax                 
+retq                           retq                              
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    50000
+Elapsed Time:                  0.932217s
+Iterations/s:                  53635.6
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     67.018%      10.918%       2.624%       
+Opcode          6.504%       6.21%         5.982%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.532%       0.56%         0.432%       
+Local Swap      6.592%       0.556%        0.12%        
+Global Swap     6.544%       5.306%        5.154%       
+Rotate          6.81%        5.784%        5.486%       
+                                                        
+Total           100%         29.334%       19.798%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    100000
+Elapsed Time:                  1.73814s
+Iterations/s:                  57532.9
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.763%      9.65%         1.837%       
+Opcode          6.592%       6.328%        6.127%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.682%       0.479%        0.336%       
+Local Swap      6.612%       0.456%        0.081%       
+Global Swap     6.557%       5.377%        5.253%       
+Rotate          6.794%       5.785%        5.511%       
+                                                        
+Total           100%         28.075%       19.145%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    150000
+Elapsed Time:                  2.5936s
+Iterations/s:                  57834.6
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     66.7093%     9.82933%      1.626%         
+Opcode          6.60067%     6.344%        6.16333%       
+OpcodeWidth     0%           0%            0%             
+Operand         6.66467%     0.423333%     0.302%         
+Local Swap      6.61133%     0.355333%     0.0813333%     
+Global Swap     6.662%       5.52067%      5.39733%       
+Rotate          6.752%       5.792%        5.53067%       
+                                                          
+Total           100%         28.2647%      19.1007%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    200000
+Elapsed Time:                  3.48566s
+Iterations/s:                  57378
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.7165%     10.2945%      1.4105%      
+Opcode          6.613%       6.378%        6.174%       
+OpcodeWidth     0%           0%            0%           
+Operand         6.6805%      0.4195%       0.294%       
+Local Swap      6.5945%      0.2955%       0.0795%      
+Global Swap     6.6775%      5.556%        5.418%       
+Rotate          6.718%       5.744%        5.49%        
+                                                        
+Total           100%         28.6875%      18.866%      
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    250000
+Elapsed Time:                  4.40134s
+Iterations/s:                  56800.9
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.6304%     10.68%        1.3848%      
+Opcode          6.62%        6.3852%       6.1768%      
+OpcodeWidth     0%           0%            0%           
+Operand         6.7104%      0.4168%       0.2872%      
+Local Swap      6.622%       0.282%        0.0956%      
+Global Swap     6.7036%      5.5584%       5.4172%      
+Rotate          6.7136%      5.7132%       5.4612%      
+                                                        
+Total           100%         29.0356%      18.8228%     
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    300000
+Elapsed Time:                  5.24526s
+Iterations/s:                  57194.5
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     66.6993%     10.5477%      1.41633%       
+Opcode          6.60633%     6.36533%      6.172%         
+OpcodeWidth     0%           0%            0%             
+Operand         6.69333%     0.403333%     0.266%         
+Local Swap      6.593%       0.26%         0.0983333%     
+Global Swap     6.709%       5.59167%      5.45833%       
+Rotate          6.699%       5.713%        5.47933%       
+                                                          
+Total           100%         28.881%       18.8903%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    350000
+Elapsed Time:                  5.91019s
+Iterations/s:                  59219.7
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted       
+                                                          
+Add Nops        0%           0%            0%             
+Delete          0%           0%            0%             
+Instruction     66.7611%     9.576%        1.30143%       
+Opcode          6.614%       6.376%        6.204%         
+OpcodeWidth     0%           0%            0%             
+Operand         6.66543%     0.365429%     0.239143%      
+Local Swap      6.57686%     0.227714%     0.0882857%     
+Global Swap     6.68057%     5.61886%      5.498%         
+Rotate          6.702%       5.75257%      5.54143%       
+                                                          
+Total           100%         27.9166%      18.8723%       
+
+********************************************************************************
+
+Statistics Update: 
+
+Iterations:                    400000
+Elapsed Time:                  6.49434s
+Iterations/s:                  61592.1
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.7507%     8.52075%      1.21275%     
+Opcode          6.6115%      6.36925%      6.21825%     
+OpcodeWidth     0%           0%            0%           
+Operand         6.66225%     0.3395%       0.22%        
+Local Swap      6.587%       0.20225%      0.08025%     
+Global Swap     6.681%       5.66625%      5.55925%     
+Rotate          6.7075%      5.792%        5.60575%     
+                                                        
+Total           100%         26.89%        18.8962%     
+
+********************************************************************************
+
+################################################################################
+
+Final update:
+
+Total search iterations:       800000
+Number of attempted searches:  2
+Total search time:             11.2411s
+Total time:                    11.681s
+
+Statistics of last search
+
+Iterations:                    400000
+Elapsed Time:                  6.49464s
+Iterations/s:                  61589.2
+
+Starting cost:                 31
+Lowest cost:                   4
+Lowest correct cost:           4
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     66.7507%     8.52075%      1.21275%     
+Opcode          6.6115%      6.36925%      6.21825%     
+OpcodeWidth     0%           0%            0%           
+Operand         6.66225%     0.3395%       0.22%        
+Local Swap      6.587%       0.20225%      0.08025%     
+Global Swap     6.681%       5.66625%      5.55925%     
+Rotate          6.7075%      5.792%        5.60575%     
+                                                        
+Total           100%         26.89%        18.8962%     
+
+Lowest Cost Discovered (4)     Lowest Known Correct Cost (4)     
+                                                                 
+._Z6paritym:                   ._Z6paritym:                      
+xorw $0x4, %di                 xorw $0x4, %di                    
+setp %dil                      setp %dil                         
+movzbq %dil, %rax              movzbq %dil, %rax                 
+retq                           retq                           
