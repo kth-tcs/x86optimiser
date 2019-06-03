@@ -1,0 +1,50 @@
+Final update:
+
+Total search iterations:       2000000
+Number of attempted searches:  7
+Total search time:             84.7168s
+Total time:                    85.196s
+
+Statistics of last search
+
+Iterations:                    200000
+Elapsed Time:                  8.51005s
+Iterations/s:                  23501.6
+
+Starting cost:                 1542
+Lowest cost:                   1441
+Lowest correct cost:           0
+
+Move Type       Proposed     Succeeded     Accepted     
+                                                        
+Add Nops        0%           0%            0%           
+Delete          0%           0%            0%           
+Instruction     24.9745%     7.9305%       5.796%       
+Opcode          24.938%      17.229%       15.5895%     
+OpcodeWidth     0%           0%            0%           
+Operand         24.9645%     17.57%        16.5885%     
+Local Swap      25.123%      8.473%        7.965%       
+Global Swap     0%           0%            0%           
+Rotate          0%           0%            0%           
+                                                        
+Total           100%         51.2025%      45.939%      
+
+Lowest Cost Discovered (1441)     Lowest Known Correct Cost (0)     
+                                                                    
+._Z6kernel:                       ._Z6kernel:                       
+popcntq -0x8(%rsp), %rbx          movq -0x8(%rsp), %rax             
+bzhil %ebx, %ebx, %r14d           movl (%rax), %ecx                 
+leal -0x80(%r14,%r14,4), %ecx     shll $0x1, %ecx                   
+rcrb %cl, -0x8(%rsp)              movl %ecx, (%rax)                 
+setns %ah                         movq -0x8(%rsp), %rax             
+orb %r14b, %bl                    movq 0x8(%rax), %rax              
+setng %r15b                       movq %rax, -0x8(%rsp)             
+rclq $0xfe, %rcx                  retq                              
+lzcntw %bx, %r14w                                                   
+movb $0xf0, %bh                                                     
+sarw $0x1, %bx                                                      
+setg %r15b                                                          
+sarb $0xf9, %ch                                                     
+rorq %cl, -0x8(%rsp)                                                
+retq                                                                
+
