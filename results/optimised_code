@@ -1,0 +1,16 @@
+.text
+  .globl _Z6paritym
+  .type _Z6paritym, @function
+
+#! file-offset 0x590
+#! rip-offset  0x400590
+#! capacity    112 bytes
+
+# Text               #  Line  RIP       Bytes  Opcode             
+._Z6paritym:         #        0x400590  0      OPC=<label>        
+  xorw $0x4, %di     #  1     0x400590  4      OPC=xorw_r16_imm8  
+  setp %dil          #  2     0x400594  4      OPC=setp_r8        
+  movzbq %dil, %rax  #  3     0x400598  4      OPC=movzbq_r64_r8  
+  retq               #  4     0x40059c  1      OPC=retq           
+                                                                  
+.size _Z6paritym, .-_Z6paritym
