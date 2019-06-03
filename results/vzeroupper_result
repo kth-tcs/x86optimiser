@@ -1,0 +1,31 @@
+Link: https://software.intel.com/en-us/forums/intel-isa-extensions/topic/704023
+Final update:
+
+Total search iterations:       10756946
+Number of attempted searches:  14
+Total search time:             1395.85s
+Total time:                    1395.93s
+
+Statistics of last search
+
+Iterations:                    2546946
+Elapsed Time:                  340.124s
+Iterations/s:                  7488.29
+
+Starting cost:                 3348
+Lowest cost:                   16
+Lowest correct cost:           0
+
+Move Type       Proposed     Succeeded     Accepted      
+                                                         
+Add Nops        0%           0%            0%            
+Delete          0%           0%            0%            
+Instruction     16.6309%     5.1983%       0.394001%     
+Opcode          16.6525%     14.4679%      5.26482%      
+OpcodeWidth     0%           0%            0%            
+Operand         16.7067%     14.8221%      5.05712%      
+Local Swap      16.6786%     10.1507%      9.65902%      
+Global Swap     16.6847%     11.565%       10.9923%      
+Rotate          16.6467%     12.3211%      11.9743%      
+                                                         
+Total           100%         68.5252%      43.3416%   
