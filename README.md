@@ -1,3 +1,7 @@
+<h3>Link to Paper submitted to FSE 2019:</h3>[ESECFSE2019-SRC_paper_21.pdf](https://github.com/kth-tcs/Superoptimization_MachineCode/files/3268939/ESECFSE2019-SRC_paper_21.pdf)
+
+
+<h3> Project Part 1: Super_Optimization Algorithm </h3>
 :+1:-**Starting docker container for Stoke Project** 
 *( Contents referred from official github page of stoke )*
 
