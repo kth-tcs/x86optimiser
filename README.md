@@ -1,12 +1,5 @@
-<h3>Link to Paper submitted to FSE 2019:</h3>[ESECFSE2019-SRC_paper_21.pdf](https://github.com/kth-tcs/Superoptimization_MachineCode/files/3268939/ESECFSE2019-SRC_paper_21.pdf)
-
-
 <h3> Project Part 1: Super_Optimization Algorithm </h3>
-:+1:-**Starting docker container for Stoke Project** 
-*( Contents referred from official github page of stoke )*
-
-
-<strong>Step 1.</strong> You will need docker installed on your system either Linux or Ubuntu. Latest version can be found here: (https://www.docker.com/get-started)
+<strong>Step 1.</strong> You will need docker installed on your system either Linux or Ubuntu. Latest version can be found here: https://www.docker.com/get-started
 
 <strong>Step 2.</strong> You will need to ssh to the latest image of the stoke project. For this you first need to pull the image from the server which can be done as:
    ```
@@ -16,12 +9,14 @@
     ```
     sudo docker run -d -P --name yourownname stanfordpl/stoke:latest
     ```
+<br></br>    
 <strong>Step 4.</strong> Then you can SSH to the container as: This will give you output for port number XXXXX
    
   ```
   sudo docker port yourownname 22
   ```
-<strong>Step 5.</strong>  Then 
+<br> </br>
+<strong>Step 5.</strong> 
   ```
      ssh -pXXXXX stoke@127.0.0.1
   ```
@@ -54,15 +49,15 @@ docker system prune --volumes
 ```
 
   
-- :+1: <strong>For Assembly codes</strong><ol>https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23</ol>
-                          <ol>https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html</ol> 
-                          <ol>https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.html </ol>
-                         <ol>https://github.com/Dman95/SASM/issues </ol>
-                          <ol>www.rosettacode.org</ol>
+-<strong>Examples on Assembly codes</strong><ul>1. https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23</ul>
+                          <ol>2. https://www3.nd.edu/~dthain/courses/cse40243/fall2015/intel-intro.html</ol> 
+                          <ol>3. https://www.imada.sdu.dk/~kslarsen/dm546/Material/IntelnATT.html </ol>
+                         <ol>4. https://github.com/Dman95/SASM/issues </ol>
+                          <ol>5. www.rosettacode.org</ol>
   <br>
   
   </br>
--  :+1:**Instructions on assembly coding**
+-<h2>Some Instructions on assembly codes</h2>
   
   Step 1: Please use any of the above mentioned methods for compiling your files in the .s format. I would suggest nasm since it is simple to work with on the Linux based Systems and comes with a wide range of applications. 
   
@@ -79,8 +74,8 @@ docker system prune --volumes
    nasm -f bin myfile.asm -o myfile.com
    
    ```
-   Output file can be given in any of the formats supported by nasm. Complete list of commands for testing and results can be found on this link: 
-   (https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23)
+   Output file can be given in any of the formats supported by nasm. Complete list of commands for testing and results can be found on this link: <br></br>
+   https://www.nasm.us/doc/nasmdoc2.html#section-2.1.23
    
    If you happen to have gcc and want to test your code, run:
    ```
@@ -89,68 +84,36 @@ docker system prune --volumes
    ```
    This will give you a run time analysis of the executed code snippets.
    
-   Some Links on Optimisations: 
-      <ul>
    
-   **PLEASE NOTE: Specify the path to the stoke to get 'stoke' commands in your system. As such:**
-   **Further: Also specify the following -Og command for full optimisations on the algorithm in g++**
    
-   ```
-   $ export PATH=$PATH:/<path_to_stoke>/bin
-   $ g++ -std=c++11 -Og -finline-limit=15 main2.cc -o b.out
    
-   The optimisations obtained from the above line give 1 magntiude improved time based performance on the timings: 
-   
-   time ./b.out 1000000
-89789
-real	0m0.006s
-user	0m0.001s
-sys	0m0.005s
 
-   
-   ```
-<br>
-</br>
-      Links: <ol>https://gcc.gnu.org/onlinedocs/gcc/Optimize-Options.html</ol>
-             <ol>http://www.wisdom.weizmann.ac.il/~ethanf/MCMC/stochastic%20optimization.pdf</ol>
-             <ol>http://llvm.org/docs/GettingStarted.html#getting-a-modern-host-c-toolchain</ol>
-
-<br>
-
-</br>
-
- :+1:  ***The output for the Stoke search Result sample***
+ <h2>The output for the Stoke search Result sample</h2>  
    Things to note: The Statistics update and the progress update are the two types of results. The progress update will give you the lowest cost result whereas the Statistics update will give you the Result table. Finally run make check and test time ./a.out to see actually whether optimisation is successful.
+   <br>
    
+   </br>
    
-   <strong>The Result is stored in resulttext.txt</strong>
-   <strong>Explanation in explanation.txt</strong>
+   <strong>The Result is stored in resulttext.txt</strong><br></br>
+   <strong>Explanation is stored in explanation.txt</strong>
    
    <strong><h>OPTIMISATIONS</strong></h>
-   <ol> -O0 This level (that is the letter "O" followed by a zero) turns off optimization entirely and is the default if no -O level is specified in CFLAGS or CXXFLAGS. This reduces compilation time and can improve debugging info, but some applications will not work properly without optimization enabled. This option is not recommended except for debugging purposes</ol>
-   <ol> -O1 the most basic optimization level. The compiler will try to produce faster, smaller code without taking much compilation time. It is basic, but it should get the job done all the time.</ol>
-   <ol> -O2 A step up from -O1. The recommended level of optimization unless the system has special needs. -O2 will activate a few more flags in addition to the ones activated by -O1. With -O2, the compiler will attempt to increase code performance without compromising on size, and without taking too much compilation time. SSE or AVX may be be utilized at this level but no YMM registers will be used unless -ftree-vectorize is also enabled.</ol>
-   <ol> -O3 the highest level of optimization possible. It enables optimizations that are expensive in terms of compile time and memory usage. Compiling with -O3 is not a guaranteed way to improve performance, and in fact, in many cases, can slow down a system due to larger binaries and increased memory usage. -O3 is also known to break several packages. Using -O3 is not recommended. However, it also enables -ftree-vectorize so that loops in the code get vectorized and will use AVX YMM registers </ol>
+   <ol>1.  -O0 This level (that is the letter "O" followed by a zero) turns off optimization entirely and is the default if no -O level is specified in CFLAGS or CXXFLAGS. This reduces compilation time and can improve debugging info, but some applications will not work properly without optimization enabled. This option is not recommended except for debugging purposes</ol><br></br>
+   
+   <ol>2. -O1 the most basic optimization level. The compiler will try to produce faster, smaller code without taking much compilation time. It is basic, but it should get the job done all the time.</ol><br></br>
+   
+   <ol>3. -O2 A step up from -O1. The recommended level of optimization unless the system has special needs. -O2 will activate a few more flags in addition to the ones activated by -O1. With -O2, the compiler will attempt to increase code performance without compromising on size, and without taking too much compilation time. SSE or AVX may be be utilized at this level but no YMM registers will be used unless -ftree-vectorize is also enabled.</ol><br></br>
+   
+   <ol>4. -O3 the highest level of optimization possible. It enables optimizations that are expensive in terms of compile time and memory usage. Compiling with -O3 is not a guaranteed way to improve performance, and in fact, in many cases, can slow down a system due to larger binaries and increased memory usage. -O3 is also known to break several packages. Using -O3 is not recommended. However, it also enables -ftree-vectorize so that loops in the code get vectorized and will use AVX YMM registers </ol><br></br>
 
-
-
-
-
-<br>
-
-
-</br>
-
+<h3>Some Useful Repos on Github</h3>
 <p><strong>STOKE REPO:</strong>https://github.com/StanfordPL/stoke</p>
 <p><strong>SOUPER GOOGLE:</strong>https://github.com/google/souper</p>
 
 
-
------------------------------------------------------PART 2 of Project----------------------------------------------------------------
-
-
-<h2>Applying ML on Optimiser</h2>
+<h1>Part 2 of Project</h1>
+<h2>Applying Learning Algorithms on Optimiser</h2>
 
 ![ML on optimiser](https://user-images.githubusercontent.com/23298265/58791057-cf1e6900-85f1-11e9-85e9-f55baa3babd4.png)
-![at](https://user-images.githubusercontent.com/23298265/58793333-2f170e80-85f6-11e9-9d35-bf67a193a4c9.png)
+
 
