@@ -111,9 +111,5 @@ docker system prune --volumes
 <p><strong>SOUPER GOOGLE:</strong>https://github.com/google/souper</p>
 
 
-<h1>Part 2 of Project</h1>
-<h2>Applying Learning Algorithms on Optimiser</h2>
-
-![ML on optimiser](https://user-images.githubusercontent.com/23298265/58791057-cf1e6900-85f1-11e9-85e9-f55baa3babd4.png)
 
 
