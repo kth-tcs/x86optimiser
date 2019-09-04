@@ -106,10 +106,7 @@ docker system prune --volumes
    
    <ol>4. -O3 the highest level of optimization possible. It enables optimizations that are expensive in terms of compile time and memory usage. Compiling with -O3 is not a guaranteed way to improve performance, and in fact, in many cases, can slow down a system due to larger binaries and increased memory usage. -O3 is also known to break several packages. Using -O3 is not recommended. However, it also enables -ftree-vectorize so that loops in the code get vectorized and will use AVX YMM registers </ol><br></br>
 
-<h3>Some Useful Repos on Github</h3>
-<p><strong>STOKE REPO:</strong>https://github.com/StanfordPL/stoke</p>
-<p><strong>SOUPER GOOGLE:</strong>https://github.com/google/souper</p>
-
+   <ol>5. -O4 Implemented in Binaryen : github.com/binaryen
 
 
 
